@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>A3054</name>
+	<Style id="dir_step">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+			<textColor>ff000000</textColor>
+			<displayMode>default</displayMode>
+		</BalloonStyle>
+	</Style>
+	<Placemark id="1.1">
+		<address>Smallbrook Stadium</address>
+		<styleUrl>#dir_startpoint</styleUrl>
+		<Point>
+			<coordinates>-1.1647807,50.7103651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.2">
+		<address>Yarmouth Harbour</address>
+		<styleUrl>#dir_endpoint</styleUrl>
+		<Point>
+			<coordinates>-1.5027383,50.7051021,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="1.3">
+		<name>A3054</name>
+		<Style id="dir_route">
+			<LineStyle>
+				<color>7fa00000</color>
+				<colorMode>normal</colorMode>
+				<width>6</width>
+			</LineStyle>
+		</Style>
+		<Placemark id="1.3.2.2.2">
+			<name>Head north on Ashey Rd</name>
+			<description>Head north on Ashey Rd</description>
+			<LookAt>
+				<longitude>-1.1655162</longitude>
+				<latitude>50.71042929999999</latitude>
+				<altitude>0</altitude>
+				<heading>7.853808</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8104293</north>
+					<south>50.6104293</south>
+					<east>-1.0655162</east>
+					<west>-1.2655162</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.1655162,50.71042929999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.3">
+			<name>At the roundabout, take the 1st exit onto Carters Rd</name>
+			<description>At the roundabout, take the 1st exit onto Carters Rd</description>
+			<LookAt>
+				<longitude>-1.1654043</longitude>
+				<latitude>50.710943</latitude>
+				<altitude>0</altitude>
+				<heading>7.853723</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.810943</north>
+					<south>50.610943</south>
+					<east>-1.0654043</east>
+					<west>-1.2654043</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.1654043,50.710943,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.4">
+			<name>At the roundabout, take the 2nd exit onto Stroud Wood Rd</name>
+			<description>At the roundabout, take the 2nd exit onto Stroud Wood Rd</description>
+			<LookAt>
+				<longitude>-1.1786215</longitude>
+				<latitude>50.7103639</latitude>
+				<altitude>0</altitude>
+				<heading>-70.78789999999999</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8103639</north>
+					<south>50.6103639</south>
+					<east>-1.0786215</east>
+					<west>-1.2786215</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.1786215,50.7103639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.5">
+			<name>Turn left onto Main Rd</name>
+			<description>Turn left onto Main Rd</description>
+			<LookAt>
+				<longitude>-1.1971097</longitude>
+				<latitude>50.7144004</latitude>
+				<altitude>0</altitude>
+				<heading>-27.192104</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8144004</north>
+					<south>50.6144004</south>
+					<east>-1.0971097</east>
+					<west>-1.2971097</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.1971097,50.7144004,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.6">
+			<name>Turn right onto Firestone Copse Rd</name>
+			<description>Turn right onto Firestone Copse Rd</description>
+			<LookAt>
+				<longitude>-1.2027635</longitude>
+				<latitude>50.71308639999999</latitude>
+				<altitude>0</altitude>
+				<heading>-91.44602</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8130864</north>
+					<south>50.6130864</south>
+					<east>-1.1027635</east>
+					<west>-1.3027635</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2027635,50.71308639999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.7">
+			<name>Turn left onto Kite Hill/A3054</name>
+			<description>Turn left onto Kite Hill/A3054</description>
+			<LookAt>
+				<longitude>-1.2228002</longitude>
+				<latitude>50.72525719999999</latitude>
+				<altitude>0</altitude>
+				<heading>-28.993551</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8252572</north>
+					<south>50.6252572</south>
+					<east>-1.1228002</east>
+					<west>-1.3228002</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2228002,50.72525719999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.8">
+			<name>Turn left onto 22</name>
+			<description>Turn left onto 22</description>
+			<LookAt>
+				<longitude>-1.2272285</longitude>
+				<latitude>50.72488389999999</latitude>
+				<altitude>0</altitude>
+				<heading>-74.813354</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8248839</north>
+					<south>50.6248839</south>
+					<east>-1.1272285</east>
+					<west>-1.3272285</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2272285,50.72488389999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.9">
+			<name>Turn left onto 22/Fernside Way</name>
+			<description>Turn left onto 22/Fernside Way</description>
+			<LookAt>
+				<longitude>-1.2363086</longitude>
+				<latitude>50.7228534</latitude>
+				<altitude>0</altitude>
+				<heading>-1.3707718</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8228534</north>
+					<south>50.6228534</south>
+					<east>-1.1363086</east>
+					<west>-1.3363086</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2363086,50.72285340000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.10">
+			<name>Turn left onto 22/Station Rd</name>
+			<description>Turn left onto 22/Station Rd</description>
+			<LookAt>
+				<longitude>-1.2374344</longitude>
+				<latitude>50.7233931</latitude>
+				<altitude>0</altitude>
+				<heading>-43.504436</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8233931</north>
+					<south>50.6233931</south>
+					<east>-1.1374344</east>
+					<west>-1.3374344</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2374344,50.7233931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.11">
+			<name>Turn right onto 22</name>
+			<description>Turn right onto 22</description>
+			<LookAt>
+				<longitude>-1.2421817</longitude>
+				<latitude>50.71929220000001</latitude>
+				<altitude>0</altitude>
+				<heading>-142.64627</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8192922</north>
+					<south>50.6192922</south>
+					<east>-1.1421817</east>
+					<west>-1.3421817</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2421817,50.71929220000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.12">
+			<name>Sharp left onto Public Footpath N111</name>
+			<description>Sharp left onto Public Footpath N111</description>
+			<LookAt>
+				<longitude>-1.2589038</longitude>
+				<latitude>50.7206781</latitude>
+				<altitude>0</altitude>
+				<heading>-8.641264</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8206781</north>
+					<south>50.6206781</south>
+					<east>-1.1589038</east>
+					<west>-1.3589038</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2589038,50.7206781,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.13">
+			<name>Turn right</name>
+			<description>Turn right</description>
+			<LookAt>
+				<longitude>-1.2589221</longitude>
+				<latitude>50.7205404</latitude>
+				<altitude>0</altitude>
+				<heading>-175.19058</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8205404</north>
+					<south>50.6205404</south>
+					<east>-1.1589221</east>
+					<west>-1.3589221</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2589221,50.7205404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.14">
+			<name>Turn right onto Belmont Ln/Public Footpath N114</name>
+			<description>Turn right onto Belmont Ln/Public Footpath N114</description>
+			<LookAt>
+				<longitude>-1.2693621</longitude>
+				<latitude>50.7198596</latitude>
+				<altitude>0</altitude>
+				<heading>-111.1477</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8198596</north>
+					<south>50.6198596</south>
+					<east>-1.1693621</east>
+					<west>-1.3693621</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2693621,50.7198596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.15">
+			<name>Turn left onto N Fairlee Rd/A3054</name>
+			<description>Turn left onto N Fairlee Rd/A3054</description>
+			<LookAt>
+				<longitude>-1.2705973</longitude>
+				<latitude>50.7207078</latitude>
+				<altitude>0</altitude>
+				<heading>-41.17095</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8207078</north>
+					<south>50.6207078</south>
+					<east>-1.1705973</east>
+					<west>-1.3705973</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2705973,50.72070780000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.16">
+			<name>Turn right onto A3054</name>
+			<description>Turn right onto A3054</description>
+			<LookAt>
+				<longitude>-1.2886437</longitude>
+				<latitude>50.70209080000001</latitude>
+				<altitude>0</altitude>
+				<heading>-162.88945</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8020908</north>
+					<south>50.6020908</south>
+					<east>-1.1886437</east>
+					<west>-1.3886437</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2886437,50.7020908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.17">
+			<name>Turn right onto Medina Way/A3020</name>
+			<description>Turn right onto Medina Way/A3020</description>
+			<LookAt>
+				<longitude>-1.2905315</longitude>
+				<latitude>50.701641</latitude>
+				<altitude>0</altitude>
+				<heading>-110.74495</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.801641</north>
+					<south>50.601641</south>
+					<east>-1.1905315</east>
+					<west>-1.3905315</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.2905315,50.701641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.18">
+			<name>Turn left onto Dodnor Ln</name>
+			<description>Turn left onto Dodnor Ln</description>
+			<LookAt>
+				<longitude>-1.3001527</longitude>
+				<latitude>50.7079146</latitude>
+				<altitude>0</altitude>
+				<heading>-41.180164</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8079146</north>
+					<south>50.6079146</south>
+					<east>-1.2001527</east>
+					<west>-1.4001527</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.3001527,50.7079146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.19">
+			<name>Turn right onto Parkhurst Rd</name>
+			<description>Turn right onto Parkhurst Rd</description>
+			<LookAt>
+				<longitude>-1.3009679</longitude>
+				<latitude>50.707832</latitude>
+				<altitude>0</altitude>
+				<heading>-106.6959</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.807832</north>
+					<south>50.607832</south>
+					<east>-1.2009679</east>
+					<west>-1.4009679</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.3009679,50.707832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.20">
+			<name>Continue onto Forest Rd/A3054</name>
+			<description>Continue onto Forest Rd/A3054</description>
+			<LookAt>
+				<longitude>-1.3023596</longitude>
+				<latitude>50.7088741</latitude>
+				<altitude>0</altitude>
+				<heading>-90.17286</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8088741</north>
+					<south>50.6088741</south>
+					<east>-1.2023596</east>
+					<west>-1.4023596</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.3023596,50.7088741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.21">
+			<name>Turn right onto St James&apos; St</name>
+			<description>Turn right onto St James&apos; St</description>
+			<LookAt>
+				<longitude>-1.4987347</longitude>
+				<latitude>50.7045161</latitude>
+				<altitude>0</altitude>
+				<heading>-110.9599</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8045161</north>
+					<south>50.6045161</south>
+					<east>-1.3987347</east>
+					<west>-1.5987347</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.4987347,50.70451609999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.22">
+			<name>Turn left onto Bridge Rd</name>
+			<description>Turn left onto Bridge Rd</description>
+			<LookAt>
+				<longitude>-1.499479</longitude>
+				<latitude>50.7056982</latitude>
+				<altitude>0</altitude>
+				<heading>-19.408941</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8056982</north>
+					<south>50.6056982</south>
+					<east>-1.399479</east>
+					<west>-1.599479</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.499479,50.7056982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.23">
+			<name>Turn right</name>
+			<description>Turn right</description>
+			<LookAt>
+				<longitude>-1.5008081</longitude>
+				<latitude>50.7053462</latitude>
+				<altitude>0</altitude>
+				<heading>-153.6117</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8053462</north>
+					<south>50.6053462</south>
+					<east>-1.4008081</east>
+					<west>-1.6008081</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.5008081,50.7053462,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2.2.24">
+			<name>Turn right</name>
+			<description>Turn right</description>
+			<LookAt>
+				<longitude>-1.5021255</longitude>
+				<latitude>50.7050828</latitude>
+				<altitude>0</altitude>
+				<heading>-115.971664</heading>
+				<tilt>45</tilt>
+				<range>360</range>
+			</LookAt>
+			<styleUrl>#dir_step</styleUrl>
+			<Region>
+				<LatLonAltBox>
+					<north>50.8050828</north>
+					<south>50.6050828</south>
+					<east>-1.4021255</east>
+					<west>-1.6021255</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+					<altitudeMode>absolute</altitudeMode>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>512</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Point>
+				<coordinates>-1.5021255,50.7050828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.3.2">
+			<name>Route</name>
+			<styleUrl>#dir_route</styleUrl>
+			<LineString>
+				<coordinates>
+					-1.1655162,50.71042930000001,0 -1.1655162,50.71042930000001,0 -1.1654043,50.710943,0 -1.1654328,50.7109482,0 -1.1654615,50.7109642,0 -1.1654724,50.7109856,0 -1.1656653,50.71096560000001,0 -1.1657527,50.7109565,0 -1.165756,50.7109562,0 -1.1659424,50.71092659999999,0 -1.1660283,50.710913,0 -1.1661703,50.7108904,0 -1.1662171,50.71088109999999,0 -1.1663016,50.7108644,0 -1.1664713,50.7108308,0 -1.1665008,50.71082020000001,0 -1.1665649,50.7107971,0 -1.1666267,50.7107749,0 -1.1666359,50.7107716,0 -1.1667299,50.71073250000001,0 -1.1667964,50.7107048,0 -1.1670289,50.7105717,0 -1.1672721,50.710436,0 -1.167394,50.7103794,0 -1.1675108,50.71032519999999,0 -1.1675388,50.7103122,0 -1.1676162,50.7102853,0 -1.1676304,50.71028040000001,0 -1.1678334,50.71021,0 -1.1681655,50.7101188,0 -1.1683945,50.7100653,0 -1.1686248,50.710021,0 -1.1688261,50.7100058,0 -1.1688768,50.710002,0 -1.1689488,50.7100021,0 -1.168965,50.7100021,0 -1.1692251,50.7100023,0 -1.1692328,50.7100025,0 -1.169249,50.71000299999999,0 -1.1693937,50.710007,0 -1.1695166,50.7100104,0 -1.1695328,50.7100108,0 -1.1696428,50.7100139,0 -1.1698005,50.7100151,0 -1.1699615,50.71001640000001,0 -1.1700845,50.7100173,0 -1.1701007,50.7100174,0 -1.170362,50.7100195,0 -1.1706928,50.710031,0 -1.1709154,50.7100552,0 -1.170932,50.7100586,0 -1.1710851,50.7100901,0 -1.1711389,50.7101012,0 -1.1712035,50.71011119999999,0 -1.1712192,50.71011360000001,0 -1.1714795,50.71015369999999,0 -1.1714895,50.7101553,0 -1.1716389,50.7101678,0 -1.1717202,50.71017449999999,0 -1.1717612,50.7101756,0 -1.1717774,50.7101761,0 -1.1719271,50.7101803,0 -1.1721161,50.7101755,0 -1.1722053,50.7101687,0 -1.1723274,50.7101595,0 -1.1723435,50.7101583,0 -1.1726094,50.7101381,0 -1.1728915,50.7101167,0 -1.1730827,50.7101022,0 -1.1731902,50.7100986,0 -1.1733725,50.7100924,0 -1.1734576,50.7100952,0 -1.1734738,50.71009569999999,0 -1.1736184,50.7101004,0 -1.1736925,50.7101028,0 -1.1739322,50.71012910000001,0 -1.1740159,50.7101494,0 -1.1740609,50.7101598,0 -1.174165,50.71018380000001,0 -1.1742618,50.71021879999999,0 -1.1743324,50.7102611,0 -1.1744517,50.7103633,0 -1.1745119,50.7104149,0 -1.1746198,50.7105083,0 -1.1747483,50.71061949999999,0 -1.1747859,50.7106542,0 -1.1748702,50.710732,0 -1.1749586,50.7107966,0 -1.1750166,50.710839,0 -1.1751446,50.7108938,0 -1.1752454,50.71092250000001,0 -1.1753401,50.7109386,0 -1.1754265,50.7109423,0 -1.1755153,50.7109432,0 -1.1756124,50.7109374,0 -1.1757007,50.7109289,0 -1.175781,50.7109184,0 -1.1758572,50.7109009,0 -1.1759342,50.71088169999999,0 -1.1760065,50.71085579999999,0 -1.1761214,50.71080169999999,0 -1.1763123,50.7106973,0 -1.1763605,50.71066800000001,0 -1.1764158,50.7106324,0 -1.1766302,50.7104943,0 -1.1767552,50.7104387,0 -1.1768263,50.7104158,0 -1.1768803,50.7103985,0 -1.1770819,50.71035890000001,0 -1.1771508,50.7103454,0 -1.1775296,50.7103146,0 -1.1780298,50.71028630000001,0 -1.1781581,50.71028690000001,0 -1.1783936,50.7103087,0 -1.1784948,50.7103242,0 -1.1786215,50.7103639,0 -1.178624,50.7103518,0 -1.1786361,50.7103402,0 -1.1786467,50.7103305,0 -1.1786614,50.7103248,0 -1.1786787,50.7103212,0 -1.1787008,50.7103207,0 -1.1787215,50.7103221,0 -1.1787394,50.7103269,0 -1.1787526,50.71033180000001,0 -1.1787685,50.710343,0 -1.1787814,50.7103586,0 -1.1787855,50.7103726,0 -1.1787841,50.7103831,0 -1.1787778,50.7103979,0 -1.1790465,50.7104562,0 -1.1791964,50.71048869999999,0 -1.1793129,50.71051839999999,0 -1.1794837,50.710562,0 -1.1795782,50.71058240000001,0 -1.1798328,50.7106375,0 -1.1798473,50.71063999999999,0 -1.1801578,50.7106942,0 -1.1803994,50.7107237,0 -1.1805959,50.7107477,0 -1.1806789,50.7107555,0 -1.1809586,50.71078179999999,0 -1.181264,50.7107922,0 -1.1815098,50.7107822,0 -1.1820181,50.7107835,0 -1.1820775,50.7107877,0 -1.1822024,50.71079640000001,0 -1.1822966,50.7108053,0 -1.1823573,50.7108163,0 -1.1824106,50.71082590000001,0 -1.1825102,50.7108594,0 -1.1828044,50.7109614,0 -1.1828524,50.71097780000001,0 -1.1830211,50.7110254,0 -1.183198,50.7110753,0 -1.1837247,50.711178,0 -1.1840013,50.711234,0 -1.1842555,50.7112855,0 -1.1842719,50.7112887,0 -1.1845432,50.71134190000001,0 -1.1846357,50.71135999999999,0 -1.1853331,50.7115438,0 -1.1858984,50.7116927,0 -1.1861394,50.7117622,0 -1.1863038,50.7117999,0 -1.1866659,50.7118425,0 -1.1870762,50.71187,0 -1.1873873,50.7118908,0 -1.1875443,50.7118974,0 -1.1876687,50.71189029999999,0 -1.1879663,50.7118609,0 -1.188357,50.71181299999999,0 -1.1886138,50.7117877,0 -1.1886179,50.7117876,0 -1.1889017,50.71178119999999,0 -1.1889824,50.71177939999999,0 -1.1891854,50.71178630000001,0 -1.189455,50.7117954,0 -1.1894691,50.7117957,0 -1.189753,50.71180079999999,0 -1.1897931,50.7118015,0 -1.1899481,50.7118124,0 -1.1900946,50.7118307,0 -1.1902169,50.7118539,0 -1.1903038,50.7118783,0 -1.1904011,50.71190550000001,0 -1.1904919,50.71194619999999,0 -1.1906677,50.7120195,0 -1.1909198,50.7121124,0 -1.1910398,50.7121478,0 -1.1910795,50.7121595,0 -1.1912279,50.7122001,0 -1.1913008,50.7122188,0 -1.1915641,50.7122862,0 -1.1918274,50.7123536,0 -1.192113,50.7124268,0 -1.1923572,50.7124975,0 -1.1926109,50.7125656,0 -1.1928099,50.7126189,0 -1.1933904,50.71276340000001,0 -1.1936486,50.7128397,0 -1.1937899,50.7128956,0 -1.1940092,50.7129818,0 -1.1941233,50.713037,0 -1.1944074,50.7131743,0 -1.1946878,50.7132906,0 -1.1948291,50.7133376,0 -1.1949772,50.71338680000001,0 -1.1950861,50.71341349999999,0 -1.1951309,50.7134245,0 -1.1953499,50.7134809,0 -1.1956111,50.71355090000001,0 -1.1956658,50.7135655,0 -1.1958233,50.7136221,0 -1.1958585,50.7136384,0 -1.195955,50.7136831,0 -1.1961937,50.7138084,0 -1.1965179,50.7139799,0 -1.1969539,50.7142106,0 -1.197007,50.7142715,0 -1.1971097,50.7144004,0 -1.1971775,50.71439540000001,0 -1.1980596,50.71433259999999,0 -1.1980703,50.7143318,0 -1.1981303,50.7143275,0 -1.1991888,50.7142522,0 -1.1991994,50.7142514,0 -1.1992594,50.71424710000001,0 -1.1994586,50.7142329,0 -1.1994816,50.71423069999999,0 -1.1997032,50.7142097,0 -1.1997818,50.7141898,0 -1.1998682,50.7141523,0 -1.1999913,50.7140831,0 -1.2001528,50.7139513,0 -1.2001593,50.713946,0 -1.2001963,50.7139158,0 -1.2002462,50.7138751,0 -1.2004282,50.713707,0 -1.2006745,50.7135167,0 -1.2007524,50.7134565,0 -1.2009095,50.7133692,0 -1.2010612,50.7133093,0 -1.2011009,50.71329369999999,0 -1.20111,50.7132901,0 -1.2011515,50.7132738,0 -1.2011618,50.7132706,0 -1.2012256,50.7132507,0 -1.2013559,50.7132101,0 -1.2014987,50.71318380000001,0 -1.2016771,50.7131558,0 -1.2016961,50.7131539,0 -1.2019171,50.71313170000001,0 -1.2019507,50.7131283,0 -1.2019767,50.713126,0 -1.2020727,50.7131173,0 -1.202167,50.71310879999999,0 -1.2021984,50.7131073,0 -1.2023128,50.7131017,0 -1.2024652,50.7130901,0 -1.2025969,50.713097,0 -1.2027045,50.71309329999999,0 -1.2027635,50.7130864,0 -1.202827,50.7132272,0 -1.2028327,50.7132368,0 -1.2028391,50.7132477,0 -1.2028431,50.71325439999999,0 -1.2028653,50.7132737,0 -1.2028677,50.7132754,0 -1.2029153,50.7133088,0 -1.2029201,50.7133122,0 -1.203007,50.7133494,0 -1.2030519,50.71336059999999,0 -1.2031958,50.7133967,0 -1.2033187,50.7134222,0 -1.2034476,50.7134489,0 -1.2035874,50.71348039999999,0 -1.2036555,50.71349579999999,0 -1.2038429,50.7135582,0 -1.2040944,50.7136418,0 -1.204126,50.7136523,0 -1.2045802,50.71382819999999,0 -1.2048226,50.71392209999999,0 -1.2049443,50.7139692,0 -1.2050675,50.714013,0 -1.2051812,50.71405349999999,0 -1.2053193,50.7140961,0 -1.2055747,50.7141749,0 -1.2060853,50.71433259999999,0 -1.2064641,50.71444950000001,0 -1.206601,50.714483,0 -1.206866,50.7145478,0 -1.2071309,50.7146126,0 -1.2073959,50.71467750000001,0 -1.2076609,50.7147423,0 -1.2077079,50.71475379999999,0 -1.2077782,50.71478450000001,0 -1.207828,50.7148125,0 -1.2078514,50.71486199999999,0 -1.2079327,50.7150344,0 -1.2079405,50.7150508,0 -1.2080135,50.7152068,0 -1.2080667,50.7153206,0 -1.208114,50.715374,0 -1.2082438,50.7155206,0 -1.2082562,50.7155294,0 -1.2086111,50.7157816,0 -1.2090649,50.7160653,0 -1.2092653,50.71615899999999,0 -1.2094938,50.71626580000001,0 -1.2097224,50.7163726,0 -1.2097754,50.71639739999999,0 -1.2099592,50.71647180000001,0 -1.2101985,50.7165687,0 -1.2104379,50.71666560000001,0 -1.2106772,50.71676249999999,0 -1.2106976,50.71677080000001,0 -1.2110045,50.71702019999999,0 -1.2110478,50.7170554,0 -1.2111262,50.7171812,0 -1.2113016,50.7174627,0 -1.2113418,50.7175138,0 -1.2114685,50.7176748,0 -1.211572,50.7178064,0 -1.211583,50.7178385,0 -1.2116247,50.7179606,0 -1.2116011,50.7180135,0 -1.2115239,50.7181866,0 -1.2114467,50.71835970000001,0 -1.2114118,50.71843779999999,0 -1.2113581,50.7185304,0 -1.2111968,50.7188085,0 -1.2110968,50.7191238,0 -1.2110834,50.7192251,0 -1.211125,50.7193737,0 -1.2111615,50.7194477,0 -1.2111842,50.7194936,0 -1.2111904,50.71950319999999,0 -1.2112286,50.7195629,0 -1.2113587,50.71963969999999,0 -1.2118439,50.7198083,0 -1.2122632,50.71997500000001,0 -1.2123291,50.7200012,0 -1.212342,50.7200053,0 -1.2125007,50.7200555,0 -1.2125149,50.7200569,0 -1.2126061,50.7200658,0 -1.2126546,50.7200705,0 -1.2128143,50.7200667,0 -1.2130066,50.7200667,0 -1.213081,50.7200716,0 -1.2133173,50.7200873,0 -1.2133637,50.7200892,0 -1.2134557,50.7200931,0 -1.2135421,50.7200967,0 -1.2137277,50.7201395,0 -1.2137374,50.7201417,0 -1.2139119,50.7202241,0 -1.2140746,50.7203252,0 -1.2141361,50.7203847,0 -1.2141811,50.7204282,0 -1.2142526,50.7204808,0 -1.2142728,50.7204957,0 -1.2143238,50.7205172,0 -1.2143527,50.7205294,0 -1.2144237,50.7205369,0 -1.2145088,50.7205383,0 -1.2145332,50.7205387,0 -1.2145986,50.7205272,0 -1.2147669,50.7204975,0 -1.2148723,50.7204789,0 -1.215057,50.7204464,0 -1.2151071,50.7204376,0 -1.2151474,50.720436,0 -1.2152462,50.720432,0 -1.2153388,50.7204359,0 -1.2154309,50.7204397,0 -1.2154681,50.7204413,0 -1.2156604,50.7204638,0 -1.2157095,50.7204731,0 -1.2158793,50.720505,0 -1.216116,50.7205668,0 -1.216153,50.72058030000001,0 -1.216399,50.7206702,0 -1.2164799,50.7206998,0 -1.2166286,50.7207754,0 -1.2167005,50.720812,0 -1.2168408,50.72088339999999,0 -1.2168485,50.72088909999999,0 -1.2169084,50.7209335,0 -1.2170479,50.721037,0 -1.2170843,50.72107430000001,0 -1.2171721,50.7211643,0 -1.2171819,50.72117870000001,0 -1.2172184,50.72123239999999,0 -1.2172905,50.7213385,0 -1.2172937,50.721344,0 -1.2173257,50.7213988,0 -1.2173704,50.7214752,0 -1.2174034,50.7215093,0 -1.2174517,50.72155909999999,0 -1.2174739,50.72158200000001,0 -1.2175795,50.7216488,0 -1.2175893,50.721655,0 -1.2177283,50.721715,0 -1.2178204,50.72174290000001,0 -1.2178955,50.7217656,0 -1.2179038,50.72176779999999,0 -1.2180789,50.7218142,0 -1.2180807,50.7218148,0 -1.218163,50.72184119999999,0 -1.218286,50.7218807,0 -1.2183325,50.721898,0 -1.218412,50.7219277,0 -1.2185772,50.7219894,0 -1.2185819,50.7219912,0 -1.2187638,50.7220774,0 -1.2188018,50.7220993,0 -1.2188701,50.7221386,0 -1.2189413,50.7221795,0 -1.219008,50.722223,0 -1.2190722,50.7222649,0 -1.2191869,50.7223396,0 -1.2195803,50.7226121,0 -1.2195886,50.7226179,0 -1.2196504,50.7226613,0 -1.2197788,50.72275150000001,0 -1.2198406,50.7227949,0 -1.219969,50.7228851,0 -1.2201592,50.7230188,0 -1.2202268,50.7230663,0 -1.2203488,50.7231527,0 -1.2205159,50.7232709,0 -1.2205383,50.7232867,0 -1.2207164,50.7234128,0 -1.2207886,50.7234647,0 -1.2211644,50.72373450000001,0 -1.2214545,50.7239428,0 -1.2216685,50.7240946,0 -1.2218732,50.7242397,0 -1.2219811,50.72433049999999,0 -1.2220041,50.72435159999999,0 -1.2220699,50.72441200000001,0 -1.2221764,50.72453469999999,0 -1.2221958,50.72455789999999,0 -1.2223598,50.7247538,0 -1.2223624,50.72475679999999,0 -1.2225248,50.7249425,0 -1.2226625,50.7250999,0 -1.2228002,50.7252572,0 -1.222875,50.7252209,0 -1.2229624,50.7251784,0 -1.223097,50.725113,0 -1.2231858,50.7250673,0 -1.2232893,50.7250091,0 -1.2234675,50.7249135,0 -1.2235265,50.72488,0 -1.2238747,50.72471809999999,0 -1.2241183,50.7246297,0 -1.2243063,50.7245878,0 -1.2244537,50.7245619,0 -1.2246348,50.7245438,0 -1.224689,50.724537,0 -1.2249626,50.7245192,0 -1.2250985,50.7245209,0 -1.225134,50.72451839999999,0 -1.2252702,50.72452140000001,0 -1.2254087,50.7245363,0 -1.2256471,50.72458530000001,0 -1.2257074,50.7246024,0 -1.2259467,50.72464000000001,0 -1.2259605,50.7246425,0 -1.2262705,50.72469980000001,0 -1.2266823,50.7247851,0 -1.2267871,50.72480680000001,0 -1.2271557,50.7248729,0 -1.2272285,50.7248839,0 -1.2273486,50.7247203,0 -1.2274755,50.72456,0 -1.2275031,50.7245252,0 -1.2275723,50.7244553,0 -1.2276335,50.7243976,0 -1.2276885,50.72435159999999,0 -1.2277784,50.7242893,0 -1.2278073,50.7242698,0 -1.2278976,50.72420900000001,0 -1.2280009,50.7241381,0 -1.2280231,50.7241229,0 -1.2280906,50.72407190000001,0 -1.228154,50.7240055,0 -1.2282601,50.7239831,0 -1.2283315,50.7239528,0 -1.2283906,50.7239181,0 -1.228455,50.72387119999999,0 -1.2285055,50.7238255,0 -1.2285573,50.72376869999999,0 -1.2285612,50.7237644,0 -1.2286447,50.723674,0 -1.2287204,50.7235996,0 -1.2287971,50.7235296,0 -1.2289503,50.72347499999999,0 -1.229096,50.72343189999999,0 -1.2292744,50.7233899,0 -1.2293146,50.7233841,0 -1.2294954,50.7233581,0 -1.2299292,50.7233096,0 -1.2300163,50.7232902,0 -1.2300793,50.7232483,0 -1.2301235,50.7232074,0 -1.2303223,50.7232168,0 -1.2305304,50.7232095,0 -1.2307541,50.7232016,0 -1.23138,50.72316669999999,0 -1.2314082,50.7231651,0 -1.2318776,50.7231193,0 -1.2319385,50.723105,0 -1.2322236,50.7230378,0 -1.2324936,50.7228545,0 -1.2325914,50.72278060000001,0 -1.2326916,50.7227049,0 -1.2328024,50.72266429999999,0 -1.2329747,50.7226011,0 -1.233058,50.7225901,0 -1.2333361,50.7225534,0 -1.2334561,50.7225376,0 -1.2336146,50.72251809999999,0 -1.2338757,50.7224859,0 -1.2341779,50.72248269999999,0 -1.2343845,50.7224805,0 -1.234706,50.7224913,0 -1.2350293,50.7224795,0 -1.2353535,50.7224677,0 -1.2355958,50.7224531,0 -1.2356647,50.722449,0 -1.235945,50.7224855,0 -1.2361384,50.7225419,0 -1.2362159,50.7225645,0 -1.2362628,50.72259840000001,0 -1.2362963,50.7226528,0 -1.2363218,50.72275379999999,0 -1.2363086,50.72285340000001,0 -1.2363734,50.7228553,0 -1.2364451,50.7228693,0 -1.2364984,50.7228862,0 -1.2366152,50.72293719999999,0 -1.2367972,50.7230229,0 -1.2369266,50.7230838,0 -1.2371123,50.7231877,0 -1.237201,50.7232374,0 -1.237315,50.7233135,0 -1.2374344,50.7233931,0 -1.2376101,50.7232845,0 -1.2379735,50.7230768,0 -1.2381056,50.7230167,0 -1.2383369,50.7229116,0 -1.2389715,50.7226615,0 -1.239266,50.7225471,0 -1.2394328,50.7224763,0 -1.2396564,50.7223872,0 -1.2398997,50.7222651,0 -1.2401112,50.7221589,0 -1.2402132,50.7221041,0 -1.2402528,50.7220828,0 -1.2403833,50.7220008,0 -1.240496,50.7219282,0 -1.2405864,50.7218651,0 -1.2406806,50.7217866,0 -1.2407389,50.7217347,0 -1.2407681,50.72170870000001,0 -1.2408046,50.7216735,0 -1.2408427,50.7216368,0 -1.2409098,50.7215501,0 -1.2409198,50.7215368,0 -1.2409787,50.72145859999999,0 -1.2410356,50.7213601,0 -1.2410971,50.7212344,0 -1.2411327,50.7211383,0 -1.2412136,50.72091939999999,0 -1.2413112,50.72067120000001,0 -1.2413799,50.72049670000001,0 -1.2414531,50.7203105,0 -1.2415826,50.72002380000001,0 -1.2416245,50.71994860000001,0 -1.2416406,50.7199196,0 -1.2417009,50.7198114,0 -1.2418249,50.7196392,0 -1.2419032,50.7195389,0 -1.2420131,50.7194315,0 -1.2420979,50.7193554,0 -1.2421817,50.71929220000001,0 -1.242392,50.7194131,0 -1.2424238,50.7194314,0 -1.242605,50.7195321,0 -1.2428185,50.7196508,0 -1.242849,50.71966770000001,0 -1.2430579,50.71974700000001,0 -1.2433015,50.7198395,0 -1.2437124,50.7199955,0 -1.2440615,50.72007899999999,0 -1.2443273,50.7201426,0 -1.2445931,50.7202061,0 -1.2448589,50.72026959999999,0 -1.2449145,50.7202829,0 -1.2451377,50.7202991,0 -1.2454199,50.72031960000001,0 -1.2457021,50.72034,0 -1.2459844,50.7203605,0 -1.2462667,50.720381,0 -1.2465489,50.7204015,0 -1.2465553,50.720402,0 -1.2468319,50.72041740000001,0 -1.2471149,50.720433,0 -1.2472482,50.7204404,0 -1.2473984,50.7204433,0 -1.2479664,50.7204543,0 -1.2479784,50.7204545,0 -1.2485346,50.7204588,0 -1.2488186,50.72046110000001,0 -1.2489882,50.7204624,0 -1.2493867,50.7204671,0 -1.2496708,50.72047049999999,0 -1.2499548,50.7204739,0 -1.2501443,50.72047619999999,0 -1.2502379,50.7204846,0 -1.2504119,50.7205003,0 -1.2506301,50.7205237,0 -1.2507341,50.7205218,0 -1.2507978,50.72050830000001,0 -1.2508941,50.7204879,0 -1.2511782,50.720491,0 -1.2514622,50.720494,0 -1.2514783,50.7204942,0 -1.2517462,50.7204995,0 -1.2520301,50.7205051,0 -1.2523141,50.7205106,0 -1.2525981,50.7205162,0 -1.2526057,50.72051629999999,0 -1.2528818,50.7205257,0 -1.2531655,50.72053540000001,0 -1.2532903,50.7205396,0 -1.2534493,50.7205433,0 -1.2541664,50.72055999999999,0 -1.254301,50.7205626,0 -1.254585,50.720568,0 -1.2549778,50.7205755,0 -1.255153,50.7205736,0 -1.2558669,50.72056589999999,0 -1.256005,50.72056979999999,0 -1.2562888,50.7205778,0 -1.2565727,50.7205859,0 -1.2568565,50.720594,0 -1.2568656,50.7205943,0 -1.2571398,50.7205812,0 -1.2574231,50.72056769999999,0 -1.2577047,50.7205542,0 -1.2579903,50.7205485,0 -1.2582743,50.7205429,0 -1.2582846,50.7205427,0 -1.2587397,50.72055020000001,0 -1.2588345,50.72057520000001,0 -1.2588821,50.7205877,0 -1.2589038,50.7206781,0 -1.2589221,50.7205404,0 -1.2592062,50.72054,0 -1.2597744,50.7205394,0 -1.2600585,50.720539,0 -1.2603426,50.7205386,0 -1.2606267,50.7205382,0 -1.2609108,50.7205379,0 -1.2611948,50.7205375,0 -1.261421,50.72053720000001,0 -1.261479,50.7205375,0 -1.2617631,50.7205392,0 -1.2623312,50.72054250000001,0 -1.2626153,50.7205441,0 -1.2634676,50.72054899999999,0 -1.2640358,50.72055229999999,0 -1.2640719,50.7205525,0 -1.2651708,50.7205173,0 -1.265928,50.720493,0 -1.266299,50.7204468,0 -1.2665778,50.720412,0 -1.2671353,50.7203425,0 -1.2671405,50.72034179999999,0 -1.2674113,50.7202998,0 -1.267635,50.720265,0 -1.2676858,50.72025409999999,0 -1.2679548,50.7201961,0 -1.2682241,50.7201381,0 -1.2684888,50.7200733,0 -1.2687537,50.7200085,0 -1.2690187,50.7199437,0 -1.2692837,50.7198788,0 -1.2693621,50.7198596,0 -1.2694399,50.7199159,0 -1.2694669,50.7199354,0 -1.2695509,50.71999399999999,0 -1.2696303,50.7200494,0 -1.2697207,50.7201124,0 -1.2698208,50.7201828,0 -1.2698233,50.7201846,0 -1.2699373,50.7202576,0 -1.2700021,50.7202992,0 -1.2700199,50.7203111,0 -1.2701338,50.7203875,0 -1.2702149,50.7204419,0 -1.2703076,50.720504,0 -1.270329,50.7205182,0 -1.2704605,50.7206059,0 -1.2705973,50.72070780000001,0 -1.2707528,50.720601,0 -1.2708566,50.720531,0 -1.2709943,50.72043369999999,0 -1.271781,50.7199007,0 -1.2719623,50.719776,0 -1.2720754,50.7196991,0 -1.2722722,50.7195628,0 -1.272445,50.7194425,0 -1.2725243,50.7193863,0 -1.2725385,50.7193762,0 -1.2727136,50.7192521,0 -1.2727994,50.7191913,0 -1.272938,50.71909130000001,0 -1.2730366,50.7190203,0 -1.2730893,50.7189823,0 -1.2731858,50.7189128,0 -1.2734923,50.7186949,0 -1.2736537,50.718581,0 -1.2738442,50.7184445,0 -1.2738805,50.71841849999999,0 -1.2739192,50.7183908,0 -1.2740149,50.7183233,0 -1.2740333,50.71831029999999,0 -1.2742231,50.7181765,0 -1.2742496,50.7181578,0 -1.2742596,50.7181506,0 -1.2743934,50.71805500000001,0 -1.2744117,50.7180419,0 -1.2746,50.7179073,0 -1.2746732,50.71785489999999,0 -1.2747884,50.7177726,0 -1.2748247,50.71774669999999,0 -1.2748718,50.717713,0 -1.2749768,50.717638,0 -1.2750105,50.717614,0 -1.275165,50.7175033,0 -1.2752514,50.71744139999999,0 -1.2753343,50.7173813,0 -1.2755015,50.7172612,0 -1.2758453,50.7170129,0 -1.2760869,50.71683469999999,0 -1.2762252,50.7167257,0 -1.276451,50.7165409,0 -1.2767408,50.7162954,0 -1.2770038,50.7160679,0 -1.2772021,50.7158908,0 -1.2772658,50.7158283,0 -1.2772995,50.7157952,0 -1.2774044,50.7156922,0 -1.2775201,50.71556690000001,0 -1.277562,50.7155215,0 -1.2776022,50.7154779,0 -1.2776316,50.7154427,0 -1.277772,50.71527440000001,0 -1.2778784,50.71513590000001,0 -1.2778886,50.71512190000001,0 -1.2780101,50.7149489,0 -1.2780388,50.7149056,0 -1.2780971,50.71482110000001,0 -1.2782068,50.7146441,0 -1.2783263,50.7144472,0 -1.278352,50.7144038,0 -1.2784017,50.7143198,0 -1.2784462,50.7142419,0 -1.2784501,50.7142351,0 -1.2785385,50.71408030000001,0 -1.2785469,50.714066,0 -1.278619,50.7139437,0 -1.2787325,50.7137511,0 -1.278742,50.71373580000001,0 -1.2787461,50.7137291,0 -1.2787679,50.71369390000001,0 -1.2787938,50.71365200000001,0 -1.2787995,50.7136428,0 -1.2788912,50.7134969,0 -1.2789189,50.7134571,0 -1.2789725,50.71337989999999,0 -1.2789881,50.7133537,0 -1.2790852,50.7131906,0 -1.2791431,50.71309839999999,0 -1.2792595,50.7129261,0 -1.2793582,50.7127939,0 -1.2794615,50.7126569,0 -1.279465,50.7126523,0 -1.2795424,50.7125445,0 -1.279679,50.71237009999999,0 -1.2797961,50.7122171,0 -1.2798391,50.7121609,0 -1.279904,50.7120651,0 -1.2799811,50.7119513,0 -1.2800804,50.7117975,0 -1.2800835,50.7117919,0 -1.2801765,50.71162520000001,0 -1.2802266,50.7115353,0 -1.2803051,50.71138560000001,0 -1.2804513,50.71114600000001,0 -1.2805981,50.7109128,0 -1.2806659,50.7108128,0 -1.2807961,50.7106161,0 -1.2808933,50.7104714,0 -1.2810427,50.7102558,0 -1.2810679,50.7102231,0 -1.2811926,50.7100615,0 -1.2812247,50.71001989999999,0 -1.2813323,50.7099051,0 -1.2813555,50.70988030000001,0 -1.2815898,50.7096572,0 -1.2817136,50.7095507,0 -1.2817624,50.7095137,0 -1.2818347,50.7094514,0 -1.2819314,50.70935350000001,0 -1.2821353,50.7091979,0 -1.2822551,50.70909400000001,0 -1.282339,50.7089888,0 -1.2825242,50.7087378,0 -1.2825966,50.7086533,0 -1.2827542,50.70845370000001,0 -1.2829101,50.7082766,0 -1.2829685,50.7082235,0 -1.2831321,50.7080749,0 -1.2832007,50.708021,0 -1.2832676,50.7079744,0 -1.2833905,50.7078998,0 -1.2835515,50.70781389999999,0 -1.2836075,50.7077862,0 -1.2837269,50.7077243,0 -1.2839887,50.7075929,0 -1.284059,50.7075595,0 -1.2840958,50.70754500000001,0 -1.2841527,50.7075331,0 -1.2843334,50.7073419,0 -1.2844705,50.707197,0 -1.2845917,50.7070706,0 -1.2846014,50.7070605,0 -1.2847086,50.7069568,0 -1.2848137,50.7068601,0 -1.2849636,50.7067247,0 -1.285112,50.7066097,0 -1.2852008,50.7065343,0 -1.2852571,50.7064881,0 -1.2852943,50.7064576,0 -1.2853847,50.70637489999999,0 -1.2854117,50.706338,0 -1.2854321,50.7063101,0 -1.2855281,50.7061739,0 -1.2855347,50.7061645,0 -1.2855943,50.7061006,0 -1.285631,50.70606310000001,0 -1.2856839,50.7060133,0 -1.2858653,50.7058316,0 -1.2859479,50.7057441,0 -1.2859929,50.7057085,0 -1.2862008,50.7055442,0 -1.28639,50.7053944,0 -1.2865287,50.7052924,0 -1.2866157,50.7052285,0 -1.2867302,50.7051221,0 -1.2868901,50.7049734,0 -1.2869755,50.7048941,0 -1.2870287,50.70484459999999,0 -1.2870487,50.7048243,0 -1.2871289,50.7047428,0 -1.2871869,50.7046838,0 -1.2871976,50.7046711,0 -1.2873045,50.7045443,0 -1.2873252,50.70451,0 -1.2876162,50.7039894,0 -1.2877559,50.7037422,0 -1.2878006,50.7036632,0 -1.2878507,50.7035746,0 -1.2878518,50.7035728,0 -1.2879531,50.7034048,0 -1.2881559,50.7030688,0 -1.2881985,50.7029907,0 -1.2884112,50.70254079999999,0 -1.2885602,50.7022626,0 -1.2886209,50.7021492,0 -1.2886437,50.7020908,0 -1.2887843,50.7020533,0 -1.2890269,50.70198670000001,0 -1.2894127,50.7019078,0 -1.2898301,50.7018246,0 -1.289906,50.7017826,0 -1.2899351,50.7017729,0 -1.2899364,50.7017726,0 -1.2899783,50.70176399999999,0 -1.2900202,50.7017554,0 -1.2902902,50.7016997,0 -1.2903824,50.7016807,0 -1.2905315,50.701641,0 -1.2906079,50.7017135,0 -1.2906808,50.7017833,0 -1.290752,50.701837,0 -1.2908571,50.7019057,0 -1.2909606,50.7019541,0 -1.2910618,50.7019945,0 -1.2911829,50.7020429,0 -1.2913449,50.7021075,0 -1.2915194,50.7021771,0 -1.2916605,50.7022375,0 -1.2917276,50.7022662,0 -1.291874,50.7023289,0 -1.2920768,50.7024168,0 -1.2921531,50.70244660000001,0 -1.2929052,50.7027722,0 -1.2931541,50.7028771,0 -1.2938195,50.7031833,0 -1.2941055,50.70330570000001,0 -1.2941619,50.7033296,0 -1.2942687,50.7033754,0 -1.2945039,50.7034762,0 -1.2948541,50.70361040000001,0 -1.2949813,50.7036705,0 -1.2952578,50.7038011,0 -1.2954267,50.7038808,0 -1.2954359,50.7038861,0 -1.2954858,50.7039146,0 -1.2956472,50.7040063,0 -1.2958179,50.7041033,0 -1.2960028,50.7042146,0 -1.2960585,50.704254,0 -1.2961943,50.70435,0 -1.2963345,50.7044552,0 -1.2964747,50.704565,0 -1.2966057,50.7046675,0 -1.2966489,50.7047012,0 -1.2967425,50.7047847,0 -1.2969845,50.7050008,0 -1.2972667,50.7052525,0 -1.2973791,50.7053528,0 -1.2979354,50.70583409999999,0 -1.2979826,50.7058749,0 -1.298399,50.7062457,0 -1.2984402,50.70628239999999,0 -1.2984814,50.70631899999999,0 -1.2984898,50.70632650000001,0 -1.2986469,50.70647149999999,0 -1.2987529,50.7065694,0 -1.2988397,50.7066495,0 -1.2991382,50.70691619999999,0 -1.2992511,50.7070172,0 -1.2992657,50.7070308,0 -1.2994602,50.70721200000001,0 -1.2996127,50.7073967,0 -1.2996618,50.7074643,0 -1.2997154,50.7075382,0 -1.2999028,50.70773370000001,0 -1.3001527,50.7079146,0 -1.300243,50.70791090000001,0 -1.3002949,50.707903,0 -1.3004632,50.7078837,0 -1.3006015,50.7078733,0 -1.3006174,50.7078748,0 -1.300708,50.7078804,0 -1.3008013,50.70789059999999,0 -1.3009399,50.7078504,0 -1.3009679,50.707832,0 -1.3012071,50.7080483,0 -1.3012855,50.7081408,0 -1.3013768,50.70823369999999,0 -1.3013879,50.7082511,0 -1.3015278,50.70843609999999,0 -1.3016015,50.7085991,0 -1.3016151,50.7086644,0 -1.3016557,50.70873970000001,0 -1.3017188,50.708783,0 -1.301769,50.7088248,0 -1.3018537,50.7088692,0 -1.3019042,50.70887820000001,0 -1.3019536,50.70888,0 -1.3020126,50.7088798,0 -1.3020631,50.7088777,0 -1.3021117,50.70887009999999,0 -1.3021575,50.708864,0 -1.3021956,50.7088598,0 -1.3022452,50.7088555,0 -1.3023042,50.7088608,0 -1.3023596,50.7088741,0 -1.3024485,50.7088495,0 -1.3033962,50.70865959999999,0 -1.3035362,50.7086259,0 -1.304415,50.708444,0 -1.3046014,50.7084036,0 -1.3050977,50.7082913,0 -1.3056697,50.7081675,0 -1.3056932,50.7081624,0 -1.3066414,50.70795929999999,0 -1.3075885,50.7077597,0 -1.3083136,50.7076069,0 -1.3083985,50.7075925,0 -1.308762,50.7075286,0 -1.3089463,50.70749740000001,0 -1.3090095,50.7074867,0 -1.3093358,50.7074315,0 -1.3094974,50.70741079999999,0 -1.3095615,50.70740260000001,0 -1.3106093,50.707268,0 -1.3109153,50.707232,0 -1.3113694,50.7071693,0 -1.3114703,50.7071554,0 -1.3122344,50.7070499,0 -1.3122604,50.7070465,0 -1.3134283,50.7068934,0 -1.3139845,50.7068204,0 -1.3142341,50.7067877,0 -1.3142626,50.7067838,0 -1.3145402,50.70674589999999,0 -1.3153731,50.7066322,0 -1.3157213,50.70659250000001,0 -1.3159322,50.7065685,0 -1.3160888,50.7065507,0 -1.316489,50.7064976,0 -1.3165573,50.7064885,0 -1.3179855,50.7062989,0 -1.3191602,50.7061271,0 -1.3193828,50.7060966,0 -1.3197691,50.7060436,0 -1.3199939,50.7060159,0 -1.3204423,50.7059607,0 -1.3205515,50.7059472,0 -1.32065,50.7059351,0 -1.3209987,50.7058883,0 -1.3211075,50.70587370000001,0 -1.3215544,50.7058138,0 -1.3230369,50.7056194,0 -1.323315,50.7055829,0 -1.323324,50.7055817,0 -1.3235909,50.70554039999999,0 -1.3246945,50.7053696,0 -1.3256016,50.7052511,0 -1.3258184,50.7052228,0 -1.3265566,50.7051281,0 -1.326835,50.7050924,0 -1.3270173,50.70506899999999,0 -1.3273917,50.705021,0 -1.3274709,50.7050108,0 -1.3281299,50.70492269999999,0 -1.3284075,50.7048857,0 -1.3289589,50.704812,0 -1.3292392,50.7047745,0 -1.3309042,50.7045525,0 -1.3311139,50.70452709999999,0 -1.3321738,50.7043762,0 -1.3329683,50.7042644,0 -1.3331543,50.7042381,0 -1.3336142,50.7041816,0 -1.3343029,50.7040953,0 -1.336251,50.7038444,0 -1.3365293,50.7038085,0 -1.3371935,50.7037229,0 -1.3377525,50.7036509,0 -1.3379508,50.7036254,0 -1.3380062,50.7036176,0 -1.3386776,50.7035248,0 -1.3388278,50.70350509999999,0 -1.3391742,50.7034624,0 -1.340497,50.7032919,0 -1.3407305,50.7032596,0 -1.3412929,50.70318650000001,0 -1.3423001,50.7030555,0 -1.3429626,50.702971,0 -1.343634,50.7028854,0 -1.3437973,50.7028631,0 -1.3446301,50.70274920000001,0 -1.3457405,50.7025974,0 -1.3465768,50.70248640000001,0 -1.3470457,50.7024242,0 -1.3471327,50.7024127,0 -1.347165,50.7024084,0 -1.3483771,50.7022474,0 -1.3484352,50.70223910000001,0 -1.348522,50.7022268,0 -1.3487123,50.7021997,0 -1.3496906,50.7020606,0 -1.3498218,50.7020458,0 -1.349962,50.70203,0 -1.3500853,50.7020241,0 -1.3501921,50.7020275,0 -1.350207,50.70202800000001,0 -1.3502818,50.702034,0 -1.3503739,50.7020567,0 -1.3504565,50.70208619999999,0 -1.3504737,50.7020923,0 -1.3506344,50.7021604,0 -1.3508534,50.7022559,0 -1.3510749,50.7023525,0 -1.3511078,50.7023658,0 -1.3511246,50.7023726,0 -1.351185,50.7023924,0 -1.3513419,50.7024372,0 -1.3513547,50.70244089999999,0 -1.3516199,50.7024728,0 -1.3517073,50.7024833,0 -1.3519224,50.7025092,0 -1.3522451,50.70254789999999,0 -1.352828,50.7025995,0 -1.3532445,50.7026363,0 -1.3533973,50.70264719999999,0 -1.3540711,50.7026947,0 -1.3545276,50.7027178,0 -1.354631,50.7027231,0 -1.3546583,50.7027245,0 -1.3548107,50.7027321,0 -1.3550177,50.70274259999999,0 -1.355094,50.7027452,0 -1.355481,50.7027586,0 -1.3556611,50.7027648,0 -1.3561901,50.70278299999999,0 -1.3562283,50.70278359999999,0 -1.3563319,50.7027851,0 -1.3567103,50.70279050000001,0 -1.3571476,50.7027839,0 -1.3573635,50.7027746,0 -1.3574492,50.7027709,0 -1.3576419,50.7027419,0 -1.3577427,50.70272660000001,0 -1.3578075,50.7027169,0 -1.3579133,50.7026904,0 -1.3581773,50.7026241,0 -1.3581855,50.7026221,0 -1.3584432,50.7025609,0 -1.3585402,50.7025378,0 -1.3586113,50.7025209,0 -1.3587136,50.7025077,0 -1.3588151,50.7024945,0 -1.3589342,50.7024791,0 -1.3589924,50.7024737,0 -1.3590318,50.70246999999999,0 -1.3590954,50.7024672,0 -1.3591753,50.7024638,0 -1.3592755,50.7024612,0 -1.3593944,50.70245820000001,0 -1.3597107,50.7024697,0 -1.3599425,50.7024972,0 -1.3601198,50.70251819999999,0 -1.3602217,50.7025303,0 -1.3603989,50.7025513,0 -1.3604025,50.7025517,0 -1.3605001,50.7025653,0 -1.3606764,50.7025897,0 -1.3615086,50.702705,0 -1.3616099,50.702719,0 -1.3620635,50.702782,0 -1.3621647,50.702796,0 -1.3622528,50.7028082,0 -1.3623411,50.70282,0 -1.3624424,50.70283360000001,0 -1.3628968,50.7028944,0 -1.3629011,50.702895,0 -1.3631751,50.70293,0 -1.3632767,50.702943,0 -1.3634535,50.70296560000001,0 -1.363751,50.7030037,0 -1.3645585,50.70313180000001,0 -1.364659,50.7031478,0 -1.364834,50.7031755,0 -1.3648626,50.70318,0 -1.365789,50.70333660000001,0 -1.3666781,50.7034882,0 -1.3667547,50.7035003,0 -1.3668552,50.70351609999999,0 -1.3670749,50.7035507,0 -1.3672534,50.7035653,0 -1.3673113,50.70356749999999,0 -1.3674147,50.7035715,0 -1.3675704,50.7035776,0 -1.3678777,50.70356099999999,0 -1.3679809,50.7035554,0 -1.3680001,50.7035544,0 -1.3681596,50.70354,0 -1.3688496,50.7034777,0 -1.3697565,50.7033429,0 -1.3698293,50.7033303,0 -1.3699293,50.7033131,0 -1.3704778,50.7032184,0 -1.371441,50.7029847,0 -1.3716919,50.7029233,0 -1.3717063,50.7029198,0 -1.3718031,50.7028964,0 -1.372369,50.70276,0 -1.3726833,50.7026989,0 -1.3728608,50.7026664,0 -1.3729982,50.7026493,0 -1.3733718,50.7026092,0 -1.3735602,50.7026052,0 -1.3737325,50.7026012,0 -1.373864,50.7026075,0 -1.3741535,50.7026176,0 -1.3744678,50.70263559999999,0 -1.3747506,50.7026518,0 -1.3748538,50.7026577,0 -1.3756408,50.7027026,0 -1.3761657,50.7027258,0 -1.3763398,50.7027335,0 -1.3764492,50.7027355,0 -1.3765528,50.7027374,0 -1.3767251,50.70274049999999,0 -1.376733,50.7027396,0 -1.3769585,50.7027144,0 -1.3770113,50.7027046,0 -1.3771525,50.7026785,0 -1.3774227,50.7026226,0 -1.3776757,50.7025808,0 -1.3778346,50.7025761,0 -1.3780657,50.70256929999999,0 -1.3781184,50.7025691,0 -1.3789741,50.7025665,0 -1.379254,50.7025745,0 -1.3793575,50.7025775,0 -1.3795377,50.7025826,0 -1.3798214,50.7025906,0 -1.379925,50.7025936,0 -1.3803813,50.7026066,0 -1.3805199,50.702617,0 -1.3812694,50.7026354,0 -1.38133,50.7026369,0 -1.3816309,50.7026216,0 -1.3819606,50.7025877,0 -1.3823846,50.7025144,0 -1.3824444,50.7025041,0 -1.3825473,50.7024762,0 -1.382649,50.7024497,0 -1.3828881,50.7023873,0 -1.3829106,50.7023798,0 -1.383162,50.70229609999999,0 -1.3832263,50.70227469999999,0 -1.3836857,50.702085,0 -1.383869,50.7020429,0 -1.3840217,50.7020054,0 -1.38464,50.70187020000001,0 -1.3847051,50.7018539,0 -1.3849691,50.70178760000001,0 -1.385055,50.701766,0 -1.3852222,50.7017068,0 -1.385507,50.7016059,0 -1.386196,50.7013534,0 -1.3864692,50.7012787,0 -1.3866146,50.7012389,0 -1.3867368,50.7012207,0 -1.3873688,50.70112639999999,0 -1.3874994,50.7011092,0 -1.3875675,50.7011011,0 -1.3877012,50.70108209999999,0 -1.3879133,50.70106490000001,0 -1.3881231,50.7010508,0 -1.3883979,50.70103490000001,0 -1.388412,50.7010341,0 -1.3885846,50.70102469999999,0 -1.388714,50.7010171,0 -1.3889206,50.7009975,0 -1.3889756,50.7009912,0 -1.3891189,50.7009746,0 -1.3893905,50.7009392,0 -1.3895316,50.700918,0 -1.3901252,50.7008289,0 -1.3903565,50.7007901,0 -1.3903589,50.70078959999999,0 -1.3905165,50.70075580000001,0 -1.3906257,50.7007266,0 -1.3907221,50.70069600000001,0 -1.3908842,50.7006468,0 -1.390956,50.7006032,0 -1.3912329,50.7004697,0 -1.3914023,50.7003914,0 -1.3915906,50.7003121,0 -1.3917312,50.70025810000001,0 -1.3918772,50.70021049999999,0 -1.3921225,50.7001478,0 -1.3923293,50.7001083,0 -1.3924423,50.7000942,0 -1.3925809,50.7000816,0 -1.3927504,50.7000689,0 -1.3933534,50.7000279,0 -1.3934321,50.7000225,0 -1.3937857,50.6999985,0 -1.394214,50.6999663,0 -1.3945075,50.699939,0 -1.3947419,50.69991,0 -1.3947597,50.69990729999999,0 -1.3948367,50.69989569999999,0 -1.3950265,50.69986719999999,0 -1.3951126,50.6998529,0 -1.3952615,50.6998281,0 -1.3956725,50.6997441,0 -1.3961788,50.69962940000001,0 -1.3961903,50.6996267,0 -1.3963819,50.6995809,0 -1.3970274,50.69942689999999,0 -1.3977709,50.69922449999999,0 -1.3979591,50.6991733,0 -1.3980318,50.69915350000001,0 -1.3980922,50.6991371,0 -1.3982954,50.69908659999999,0 -1.3995636,50.698771,0 -1.399814,50.6987222,0 -1.4004993,50.6985885,0 -1.400705,50.69855089999999,0 -1.4009107,50.69851320000001,0 -1.4011677,50.6984774,0 -1.4014914,50.6984405,0 -1.4016996,50.6984254,0 -1.4019461,50.6984163,0 -1.4021032,50.69841419999999,0 -1.4021265,50.69841390000001,0 -1.4023366,50.6984171,0 -1.4024925,50.6984196,0 -1.4026465,50.6984263,0 -1.4027602,50.6984343,0 -1.4029058,50.6984468,0 -1.4030627,50.69846259999999,0 -1.4036987,50.6985456,0 -1.4044409,50.6986525,0 -1.4051738,50.6987509,0 -1.4053784,50.6987784,0 -1.4054514,50.69878880000001,0 -1.4056512,50.6988171,0 -1.4059283,50.6988564,0 -1.4060013,50.6988668,0 -1.4065289,50.698931,0 -1.4071083,50.6989783,0 -1.4074103,50.69899199999999,0 -1.4074812,50.6989952,0 -1.4077711,50.6990083,0 -1.4078962,50.6990222,0 -1.4080074,50.6990342,0 -1.4080959,50.69904999999999,0 -1.408158,50.6990631,0 -1.4082206,50.6990811,0 -1.4082925,50.6991033,0 -1.408345,50.6991219,0 -1.4084928,50.6991812,0 -1.4086048,50.6992435,0 -1.4089221,50.6994048,0 -1.4089815,50.69943500000001,0 -1.4090779,50.6994841,0 -1.4093741,50.69962189999999,0 -1.4095791,50.6997465,0 -1.4097296,50.6998795,0 -1.4097799,50.699942,0 -1.4098738,50.7000587,0 -1.4098991,50.7000991,0 -1.4100018,50.7002633,0 -1.4100262,50.70032199999999,0 -1.4101417,50.7005997,0 -1.4102304,50.7007905,0 -1.4102662,50.70083900000001,0 -1.410361,50.7008971,0 -1.4104072,50.7009229,0 -1.4104583,50.7009459,0 -1.4105142,50.700967,0 -1.4105191,50.70096890000001,0 -1.4105698,50.70098549999999,0 -1.4105774,50.7009875,0 -1.4106729,50.70101249999999,0 -1.4107358,50.7010275,0 -1.4107406,50.7010285,0 -1.411801,50.7012564,0 -1.4121878,50.70134400000001,0 -1.4126091,50.7014269,0 -1.4126694,50.70143879999999,0 -1.4128823,50.7014759,0 -1.4131552,50.7015235,0 -1.4133045,50.7015483,0 -1.4134712,50.7015743,0 -1.4134935,50.7015764,0 -1.4136046,50.70158660000001,0 -1.4136908,50.70158870000001,0 -1.4136943,50.7015886,0 -1.4137126,50.70158829999999,0 -1.413777,50.7015871,0 -1.4138649,50.701578,0 -1.4139756,50.7015665,0 -1.4139937,50.7015646,0 -1.4140085,50.70156309999999,0 -1.41418,50.701539,0 -1.4142543,50.7015326,0 -1.4142724,50.701531,0 -1.4142856,50.7015299,0 -1.4144436,50.70152769999999,0 -1.4145593,50.70153310000001,0 -1.4146566,50.701543,0 -1.414813,50.70157380000001,0 -1.4150113,50.7016045,0 -1.4155642,50.7016789,0 -1.4155902,50.7016834,0 -1.4158844,50.701733,0 -1.4158955,50.70173430000001,0 -1.4160434,50.7017517,0 -1.416076,50.701754,0 -1.4161308,50.7017578,0 -1.4162452,50.70176,0 -1.4164103,50.7017607,0 -1.4164603,50.70175930000001,0 -1.4165576,50.7017567,0 -1.4166833,50.70175040000001,0 -1.4172983,50.7017098,0 -1.4179675,50.70167250000001,0 -1.4181323,50.70166390000001,0 -1.4182802,50.7016596,0 -1.4183403,50.7016589,0 -1.4187315,50.7016745,0 -1.4191703,50.70169630000001,0 -1.4192445,50.7017,0 -1.4194389,50.70171139999999,0 -1.4208528,50.7017944,0 -1.4208583,50.70179470000001,0 -1.4209098,50.7017977,0 -1.4210423,50.7018031,0 -1.4211841,50.70180089999999,0 -1.4213182,50.701796,0 -1.4214474,50.7017865,0 -1.4215169,50.70178009999999,0 -1.4215872,50.70177360000001,0 -1.4216003,50.7017724,0 -1.4216574,50.7017669,0 -1.4219866,50.7017353,0 -1.4221074,50.7017239,0 -1.4222507,50.70171800000001,0 -1.4222689,50.7017179,0 -1.4224214,50.7017169,0 -1.4228522,50.701732,0 -1.4232063,50.7017445,0 -1.4233777,50.7017434,0 -1.4234036,50.7017426,0 -1.4235839,50.7017371,0 -1.4237485,50.70173069999999,0 -1.4239293,50.70171800000001,0 -1.4241533,50.70169649999999,0 -1.4244411,50.70165639999999,0 -1.4250279,50.7015682,0 -1.4253551,50.701519,0 -1.4253706,50.70151669999999,0 -1.4255805,50.7014851,0 -1.4258568,50.7014436,0 -1.4259077,50.70143590000001,0 -1.4259232,50.7014336,0 -1.426601,50.70133160000001,0 -1.4270571,50.7012561,0 -1.4272608,50.701221,0 -1.4274807,50.7011785,0 -1.4276929,50.70113409999999,0 -1.4279626,50.7010777,0 -1.4282946,50.7010082,0 -1.4284497,50.7009827,0 -1.4285695,50.700963,0 -1.4286461,50.7009504,0 -1.4287246,50.7009375,0 -1.4288443,50.7009178,0 -1.4288591,50.7009154,0 -1.4290393,50.7008854,0 -1.4291961,50.700856,0 -1.4292711,50.7008401,0 -1.42931,50.7008319,0 -1.4293886,50.7008155,0 -1.4294358,50.7008057,0 -1.4294628,50.7007981,0 -1.4295502,50.7007736,0 -1.4296497,50.7007451,0 -1.4296718,50.7007388,0 -1.4297204,50.7007225,0 -1.4297627,50.7007083,0 -1.4298787,50.7006687,0 -1.4300573,50.7006131,0 -1.4301942,50.7005692,0 -1.4303815,50.7005216,0 -1.430585,50.70048200000001,0 -1.4307042,50.7004622,0 -1.4308435,50.7004414,0 -1.4309912,50.7004291,0 -1.4311223,50.7004221,0 -1.4312114,50.70042,0 -1.4313138,50.7004195,0 -1.4313848,50.7004191,0 -1.4314208,50.7004189,0 -1.431526,50.7004272,0 -1.4316438,50.7004413,0 -1.4317706,50.7004606,0 -1.4317728,50.70046090000001,0 -1.4319749,50.7004931,0 -1.4322231,50.70053269999999,0 -1.4325977,50.70059579999999,0 -1.4327991,50.70062970000001,0 -1.4328136,50.70063210000001,0 -1.4328726,50.70064070000001,0 -1.4330064,50.7006603,0 -1.4330756,50.7006705,0 -1.4333192,50.7007062,0 -1.4334276,50.7007163,0 -1.4336371,50.7007359,0 -1.4339182,50.7007503,0 -1.4341295,50.7007562,0 -1.4342005,50.7007582,0 -1.4342092,50.70075840000001,0 -1.4347999,50.7007785,0 -1.4348002,50.7007785,0 -1.4352969,50.7007838,0 -1.435575,50.70079489999999,0 -1.4357496,50.70080829999999,0 -1.4359147,50.7008251,0 -1.4359599,50.7008304,0 -1.4360557,50.7008417,0 -1.4362381,50.7008664,0 -1.436299,50.70087459999999,0 -1.4364125,50.70089160000001,0 -1.4365148,50.7009069,0 -1.4365181,50.7009074,0 -1.4367492,50.7009489,0 -1.4369537,50.7009894,0 -1.4370568,50.7010098,0 -1.4372537,50.7010553,0 -1.4375863,50.70114329999999,0 -1.4377468,50.7011857,0 -1.437809,50.7012022,0 -1.437849,50.7012115,0 -1.4379345,50.7012314,0 -1.4380142,50.7012455,0 -1.4381156,50.7012605,0 -1.4381215,50.7012612,0 -1.4384012,50.70129230000001,0 -1.4384926,50.7013031,0 -1.4387717,50.7013362,0 -1.4388436,50.7013447,0 -1.4390037,50.7013622,0 -1.4390517,50.7013664,0 -1.439144,50.7013745,0 -1.4392885,50.7013856,0 -1.4393336,50.7013878,0 -1.4394507,50.70139340000001,0 -1.4396169,50.70139990000001,0 -1.4398717,50.7014192,0 -1.4401069,50.7014425,0 -1.4402904,50.70147029999999,0 -1.4403227,50.7014752,0 -1.4404946,50.7015073,0 -1.4406674,50.7015463,0 -1.4406746,50.7015479,0 -1.4408928,50.701602,0 -1.4409319,50.7016118,0 -1.4409485,50.70161599999999,0 -1.4419884,50.7018762,0 -1.442005,50.70188030000001,0 -1.4425166,50.7020083,0 -1.4427807,50.70207440000001,0 -1.4435897,50.7022769,0 -1.4438372,50.7023388,0 -1.4444429,50.702474,0 -1.4446407,50.7025181,0 -1.4448604,50.70256719999999,0 -1.4449084,50.70257819999999,0 -1.4452226,50.7026504,0 -1.4452769,50.7026627,0 -1.4454681,50.7027059,0 -1.4457043,50.7027619,0 -1.446003,50.7028267,0 -1.4461262,50.7028534,0 -1.4461393,50.70285620000001,0 -1.4462717,50.702885,0 -1.4462996,50.70289100000001,0 -1.4465412,50.7029417,0 -1.446676,50.70297,0 -1.4468108,50.7029983,0 -1.4468925,50.7030154,0 -1.4469475,50.7030269,0 -1.4470805,50.7030546,0 -1.447361,50.70311310000001,0 -1.4475444,50.7031513,0 -1.4480265,50.7032618,0 -1.4480954,50.7032775,0 -1.448153,50.7032914,0 -1.4481636,50.703294,0 -1.4485579,50.70338890000001,0 -1.4488304,50.7034545,0 -1.4489381,50.7034781,0 -1.4490585,50.7034993,0 -1.4491909,50.7035183,0 -1.44935,50.7035379,0 -1.4495811,50.70356629999999,0 -1.4499044,50.7036068,0 -1.4502153,50.70365170000001,0 -1.4507221,50.70373039999999,0 -1.4514833,50.7038486,0 -1.4518963,50.7039203,0 -1.4519625,50.70393230000001,0 -1.4520964,50.7039563,0 -1.4521072,50.7039583,0 -1.4521737,50.7039702,0 -1.4521891,50.703973,0 -1.4523688,50.7040051,0 -1.4525214,50.70403899999999,0 -1.4526977,50.70408,0 -1.4528266,50.7041139,0 -1.4529256,50.7041399,0 -1.4531691,50.7042076,0 -1.4532342,50.70422569999999,0 -1.4533043,50.7042449,0 -1.4536932,50.7043512,0 -1.4538027,50.70437940000001,0 -1.45392,50.70440099999999,0 -1.4540137,50.7044117,0 -1.454102,50.7044193,0 -1.4541806,50.7044245,0 -1.4542588,50.7044273,0 -1.4543636,50.7044307,0 -1.4544824,50.7044307,0 -1.4545869,50.7044269,0 -1.4547178,50.7044188,0 -1.454859,50.7044054,0 -1.4550366,50.7043873,0 -1.4552732,50.7043662,0 -1.4554895,50.7043507,0 -1.455624,50.70434340000001,0 -1.4557905,50.7043409,0 -1.4559596,50.7043395,0 -1.4561426,50.7043424,0 -1.4569902,50.7043625,0 -1.4574994,50.7043745,0 -1.4580523,50.7043876,0 -1.458067,50.7043879,0 -1.4582792,50.7043921,0 -1.4584093,50.7043944,0 -1.458513,50.70439629999999,0 -1.4589187,50.7044088,0 -1.459126,50.7044131,0 -1.4592932,50.7044176,0 -1.4593971,50.7044185,0 -1.4594765,50.7044163,0 -1.4595672,50.7044129,0 -1.4596479,50.7044077,0 -1.4598234,50.7043876,0 -1.460165,50.7043489,0 -1.4602632,50.7043385,0 -1.460346,50.7043325,0 -1.4604388,50.7043258,0 -1.4605381,50.7043214,0 -1.4606461,50.70431880000001,0 -1.4606832,50.7043181,0 -1.4607542,50.7043167,0 -1.4611141,50.7043094,0 -1.4612954,50.7043011,0 -1.4615316,50.7042873,0 -1.4617397,50.7042731,0 -1.4626611,50.7042,0 -1.4627316,50.7041944,0 -1.4628978,50.7041812,0 -1.4632173,50.7041592,0 -1.4633998,50.70414779999999,0 -1.4637167,50.7041284,0 -1.4639036,50.7041209,0 -1.4640971,50.704117,0 -1.464273,50.7041147,0 -1.4643744,50.7041157,0 -1.4644729,50.70412,0 -1.464571,50.7041263,0 -1.465022,50.7041592,0 -1.4650926,50.7041644,0 -1.4652535,50.7041765,0 -1.4655759,50.7042004,0 -1.4658146,50.70421830000001,0 -1.4659698,50.704227,0 -1.4661896,50.70423970000001,0 -1.4664005,50.704247,0 -1.4665427,50.7042506,0 -1.4665564,50.704251,0 -1.4667539,50.70425029999999,0 -1.4667896,50.70424969999999,0 -1.4668266,50.7042491,0 -1.4668841,50.70424800000001,0 -1.4670211,50.7042448,0 -1.4670734,50.7042431,0 -1.4671104,50.7042419,0 -1.4672183,50.7042384,0 -1.467223,50.70423820000001,0 -1.4673686,50.7042325,0 -1.4674765,50.7042274,0 -1.4678571,50.7042034,0 -1.4680042,50.7041977,0 -1.468092,50.704197,0 -1.4681793,50.7041981,0 -1.4682584,50.7041991,0 -1.4683198,50.7042027,0 -1.4683757,50.7042077,0 -1.4683778,50.7042079,0 -1.4684232,50.7042131,0 -1.4684662,50.7042181,0 -1.4685589,50.7042323,0 -1.468892,50.70430379999999,0 -1.4689647,50.70432020000001,0 -1.4691271,50.70435680000001,0 -1.4692291,50.7043844,0 -1.4693483,50.7044196,0 -1.4694427,50.7044487,0 -1.4694861,50.70446199999999,0 -1.4697203,50.7045341,0 -1.469975,50.7046163,0 -1.4701213,50.7046661,0 -1.4702549,50.704713,0 -1.470806,50.704926,0 -1.4709335,50.7049699,0 -1.4709505,50.70497570000001,0 -1.4711716,50.7050459,0 -1.4711874,50.7050504,0 -1.4713664,50.7051009,0 -1.4715245,50.7051406,0 -1.4717683,50.7052022,0 -1.4719498,50.7052485,0 -1.4722952,50.7053365,0 -1.4724119,50.70536629999999,0 -1.4725589,50.7054033,0 -1.4727408,50.705449,0 -1.4728229,50.7054697,0 -1.4731705,50.7055572,0 -1.4737568,50.7057038,0 -1.4746309,50.70590320000001,0 -1.4746449,50.7059063,0 -1.4749734,50.7059759,0 -1.4750192,50.7059856,0 -1.4752329,50.7060282,0 -1.4754483,50.7060701,0 -1.4755958,50.7060963,0 -1.4758859,50.7061411,0 -1.4763543,50.7062127,0 -1.4766393,50.7062607,0 -1.4767407,50.70627769999999,0 -1.4771347,50.7063506,0 -1.4774253,50.70641030000001,0 -1.477601,50.706452,0 -1.4777225,50.7064852,0 -1.4778241,50.70651789999999,0 -1.4778981,50.7065457,0 -1.4779655,50.7065721,0 -1.4779966,50.7065843,0 -1.4781242,50.7066405,0 -1.4781343,50.7066451,0 -1.4781922,50.7066712,0 -1.4782466,50.7066956,0 -1.4785067,50.70682230000001,0 -1.478931,50.7070132,0 -1.4792315,50.7071146,0 -1.4796742,50.7072734,0 -1.4799307,50.7073587,0 -1.4799364,50.70736029999999,0 -1.4801951,50.7074345,0 -1.4802755,50.7074514,0 -1.4803576,50.70746489999999,0 -1.4804036,50.707471,0 -1.4804688,50.7074774,0 -1.4805355,50.7074815,0 -1.4806284,50.7074835,0 -1.4806425,50.7074838,0 -1.4807692,50.7074807,0 -1.4809096,50.7074752,0 -1.4811931,50.707464,0 -1.48176,50.70744169999999,0 -1.4818046,50.70743880000001,0 -1.4819338,50.7074326,0 -1.4823133,50.7073952,0 -1.4824334,50.7073793,0 -1.4827247,50.7073008,0 -1.4830473,50.7072088,0 -1.4833018,50.70713619999999,0 -1.4833264,50.7071292,0 -1.4833666,50.7071178,0 -1.4833688,50.7071172,0 -1.4836659,50.70703269999999,0 -1.4837883,50.70699830000001,0 -1.4842624,50.7068652,0 -1.4845304,50.70678960000001,0 -1.4846514,50.70675540000001,0 -1.4846663,50.7067517,0 -1.4847789,50.7067238,0 -1.4848299,50.70671109999999,0 -1.484855,50.70670520000001,0 -1.485045,50.7066608,0 -1.4851666,50.7066324,0 -1.4854418,50.7065881,0 -1.4858156,50.7065451,0 -1.4858198,50.7065445,0 -1.4860276,50.70651580000001,0 -1.4862329,50.7064985,0 -1.4863033,50.7064925,0 -1.4863628,50.7064875,0 -1.4867162,50.7064636,0 -1.4870926,50.7064415,0 -1.4873982,50.7064275,0 -1.4878572,50.70641920000001,0 -1.4879521,50.7064202,0 -1.4880422,50.7064209,0 -1.4881433,50.7064216,0 -1.4883005,50.7064228,0 -1.488624,50.706433,0 -1.488893,50.7064466,0 -1.489005,50.70645219999999,0 -1.4891444,50.7064604,0 -1.489336,50.70646969999999,0 -1.4894593,50.7064738,0 -1.4894704,50.7064742,0 -1.4896505,50.7064802,0 -1.4897865,50.706483,0 -1.4898697,50.7064815,0 -1.4901121,50.7064785,0 -1.4901413,50.7064775,0 -1.4903097,50.70646459999999,0 -1.490652,50.7064384,0 -1.4907102,50.7064324,0 -1.4910509,50.7063979,0 -1.4911523,50.7063857,0 -1.4913048,50.70636780000001,0 -1.4914388,50.7063502,0 -1.4916698,50.7063099,0 -1.4918945,50.7062599,0 -1.4920636,50.70621789999999,0 -1.4921023,50.70620629999999,0 -1.492229,50.7061658,0 -1.4922575,50.70615669999999,0 -1.4923517,50.70612759999999,0 -1.4924168,50.7061031,0 -1.4924784,50.7060801,0 -1.4924914,50.70607530000001,0 -1.4928055,50.7059411,0 -1.4930732,50.70583510000001,0 -1.4930796,50.7058331,0 -1.4933032,50.70576309999999,0 -1.493447,50.7057223,0 -1.4935034,50.7057073,0 -1.4935386,50.7056973,0 -1.4937886,50.7056485,0 -1.4938042,50.70564539999999,0 -1.493993,50.7056093,0 -1.493998,50.70560830000001,0 -1.494191,50.7055714,0 -1.4945052,50.70552150000001,0 -1.4945407,50.7055145,0 -1.4945443,50.7055138,0 -1.4947382,50.7054762,0 -1.4949743,50.7054286,0 -1.495656,50.70527499999999,0 -1.49588,50.7052167,0 -1.4961396,50.70515020000001,0 -1.4965914,50.70503779999999,0 -1.4968791,50.70496620000001,0 -1.4973861,50.7048432,0 -1.4980455,50.7046833,0 -1.4987347,50.70451609999999,0 -1.4988411,50.7046467,0 -1.4990072,50.7048653,0 -1.4991066,50.7050106,0 -1.4992079,50.70519179999999,0 -1.4992246,50.7052216,0 -1.4994179,50.7055924,0 -1.499479,50.7056982,0 -1.499542,50.7056819,0 -1.4999604,50.7056363,0 -1.5005495,50.7055721,0 -1.5006381,50.7055407,0 -1.5006583,50.7055302,0 -1.5007142,50.7054758,0 -1.5007561,50.7054213,0 -1.5007834,50.7053858,0 -1.5008081,50.7053462,0 -1.5010478,50.7053396,0 -1.5011371,50.7053296,0 -1.5013603,50.7052783,0 -1.5016273,50.70521699999999,0 -1.5020492,50.70512,0 -1.5021016,50.7051039,0 -1.5021255,50.7050828,0 -1.5022092,50.70519239999999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+</Folder>
+</kml>
