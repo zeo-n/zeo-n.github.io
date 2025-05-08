@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isle of Wight Web Mapping Project</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    /* Banner styling */
+    .jumbotron {
+      position: relative;
+      background: url('iow123.jpeg') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      padding: 4rem 2rem;
+    }
+    .jumbotron::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .jumbotron .container {
+      position: relative;
+      z-index: 2;
+    }
+    /* Video container styling */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    /* Content Section */
+    .content-section {
+      padding: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Isle of Wight Mapping</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="soil.html">Soil Characteristics</a></li>
+        <li class="nav-item"><a class="nav-link" href="roads.html">Roads</a></li>
+        <li class="nav-item"><a class="nav-link" href="towns.html">Towns & Population</a></li>
+        <li class="nav-item"><a class="nav-link" href="rainfall.html">Average Rainfall</a></li>
+        <li class="nav-item"><a class="nav-link" href="floodrisk.html">Flood Risk</a></li>
+        <li class="nav-item"><a class="nav-link" href="tourism.html">Tourism</a></li>
+        <li class="nav-item"><a class="nav-link" href="cycling_route.html">Cycling Route</a></li>
+        <li class="nav-item"><a class="nav-link" href="webapp.html">Web App</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section with Banner -->
+<header class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-4">Isle of Wight Web Mapping Project</h1>
+    <p class="lead">Innovative web mapping solutions for smarter planning and sustainable development.</p>
+    <a class="btn btn-primary btn-lg" href="#overview" role="button">Learn More</a>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="container content-section">
+  <!-- Overview Section -->
+  <section id="overview">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Welcome</h2>
+        <p>
+          The Isle of Wight Web Mapping Project is designed to empower the local council with cutting-edge geospatial data and interactive maps. By integrating data on soil characteristics, road networks, population, rainfall, flood risk, and tourism, this platform provides crucial insights to support strategic planning and decision-making.
+        </p>
+        <p>
+          Our web application leverages a variety of mapping technologies—from the ArcGIS API for JavaScript to ArcGIS Online embeds—to offer a comprehensive view of the island’s spatial data. Whether you are assessing environmental impacts, planning infrastructure, or enhancing tourist experiences, our platform delivers detailed, actionable information.
+        </p>
+        <ul>
+          <li><strong>Soil Characteristics:</strong> Detailed analysis for sustainable land use and agriculture.</li>
+          <li><strong>Road Networks:</strong> Comprehensive mapping of transport routes for planning and emergency management.</li>
+          <li><strong>Towns & Population:</strong> Insightful demographic data for urban planning and community development.</li>
+          <li><strong>Average Rainfall:</strong> Precipitation data critical for environmental management and water resource planning.</li>
+          <li><strong>Flood Risk:</strong> Spatial analysis of flood-prone areas to help mitigate hazards.</li>
+          <li><strong>Tourism Highlights:</strong> Showcasing the island’s attractions to boost local tourism.</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>Project Overview Video</h2>
+        <div class="video-container">
+          <!-- Replace 'video_url_here' with your actual video URL -->
+          <iframe src="record.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p>
+          Watch our short video to see how the project integrates multiple data sources and mapping technologies into a single, user-friendly platform.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mapping Themes Summary -->
+  <section id="themes" class="mt-5">
+    <h2>Mapping Themes</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Soil Characteristics</h3>
+        <p>Analyze soil types and quality to inform sustainable agricultural practices and land management.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Road Networks</h3>
+        <p>Understand the island's road infrastructure to support transportation planning and emergency response.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Towns & Population</h3>
+        <p>Gain insights into population distribution and urban development trends across the island.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Average Rainfall</h3>
+        <p>Examine precipitation patterns and seasonal variations to aid environmental planning and water management.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Flood Risk</h3>
+        <p>Identify flood-prone areas through spatial analysis to improve hazard preparedness and risk mitigation.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Tourism</h3>
+        <p>Showcase popular attractions and natural landmarks to enhance local tourism and economic growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tourism Highlights Section -->
+  <section id="tourism-highlights" class="mt-5">
+    <h2>Tourism Highlights</h2>
+    <div class="row">
+      <!-- Example tile for a tourist attraction -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="needles.jpg" class="card-img-top" alt="The Needles">
+          <div class="card-body">
+            <h5 class="card-title">The Needles</h5>
+            <p class="card-text">Experience breathtaking views of the iconic chalk stacks along the dramatic coastline.</p>
+            <a href="tourism.html#needles" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Additional tourism tiles -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="osborne.avif" class="card-img-top" alt="Osborne House">
+          <div class="card-body">
+            <h5 class="card-title">Osborne House</h5>
+            <p class="card-text">Discover the grandeur of Queen Victoria's historic seaside retreat.</p>
+            <a href="tourism.html#osborne" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="carisbrooke.jpg" class="card-img-top" alt="Carisbrooke Castle">
+          <div class="card-body">
+            <h5 class="card-title">Carisbrooke Castle</h5>
+            <p class="card-text">Explore the medieval fortress and enjoy panoramic views over the island.</p>
+            <a href="tourism.html#carisbrooke" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Isle of Wight Web Mapping Project. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

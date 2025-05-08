@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tourism - Isle of Wight Web Mapping Project</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 0.75rem;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    #tourismMap {
+      height: 400px;
+      margin-bottom: 2rem;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .back-home {
+      margin: 2rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<!-- Header and Navigation -->
+<header>
+  <h1>Tourism</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="soil.html">Soil Characteristics</a></li>
+      <li><a href="roads.html">Roads</a></li>
+      <li><a href="towns.html">Towns & Population</a></li>
+      <li><a href="rainfall.html">Average Rainfall</a></li>
+      <li><a href="floodrisk.html">Flood Risk</a></li>
+      <li><a class="active" href="tourism.html">Tourism</a></li>
+      <li><a href="cycling_route.html">Cycling Route</a></li>
+      <li><a href="webapp.html">Web App</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main Content -->
+
+<main>
+  <!-- Introductory Section -->
+  <section>
+    <h2 class="text-center">Explore the Isle of Wight</h2>
+    <p class="text-center">Discover some of the island's most iconic attractions. Click on a marker on the map or a card below to learn more about each destination.</p>
+  </section>
+
+  <!-- Interactive Map Section -->
+  <section>
+    <div id="tourismMap"></div>
+  </section>
+
+  <!-- Tourism Cards Section -->
+  <section class="container">
+    <div class="row g-4">
+      <!-- The Needles -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="need.webp" class="card-img-top" alt="The Needles">
+          <div class="card-body">
+            <h5 class="card-title">The Needles</h5>
+            <p class="card-text">Marvel at the dramatic chalk stacks and stunning coastal views.</p>
+            <a href="https://www.nationaltrust.org.uk/visit/isle-of-wight/the-needles-old-battery-and-new-battery" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Osborne House -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="osborne.avif" class="card-img-top" alt="Osborne House">
+          <div class="card-body">
+            <h5 class="card-title">Osborne House</h5>
+            <p class="card-text">Step into the royal legacy of Queen Victoria’s seaside retreat.</p>
+            <a href="https://www.english-heritage.org.uk/visit/places/osborne/" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Carisbrooke Castle -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="carisbrooke.jpg" class="card-img-top" alt="Carisbrooke Castle">
+          <div class="card-body">
+            <h5 class="card-title">Carisbrooke Castle</h5>
+            <p class="card-text">Explore a medieval fortress rich in history and legends.</p>
+            <a href="https://www.english-heritage.org.uk/visit/places/carisbrooke-castle/" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Ventnor Botanic Garden -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="ventor.jpeg" class="card-img-top" alt="Ventnor Botanic Garden">
+          <div class="card-body">
+            <h5 class="card-title">Ventnor Botanic Garden</h5>
+            <p class="card-text">Discover a haven of exotic plants and stunning views.</p>
+            <a href="https://www.botanic.co.uk" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Shanklin Chine -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="chine.jpg" class="card-img-top" alt="Shanklin Chine">
+          <div class="card-body">
+            <h5 class="card-title">Shanklin Chine</h5>
+            <p class="card-text">Experience a unique natural gorge with lush vegetation.</p>
+            <a href="https://shanklinchine.co.uk" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Alum Bay -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="alum.jpeg" class="card-img-top" alt="Alum Bay">
+          <div class="card-body">
+            <h5 class="card-title">Alum Bay</h5>
+            <p class="card-text">Enjoy the iconic multi-colored sands and coastal vistas.</p>
+            <a href="https://www.visitisleofwight.co.uk/things-to-do/alum-bay-beach-p993841" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Classic Boat Museum Card -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="boat.jpg" class="card-img-top" alt="Classic Boat Museum">
+          <div class="card-body">
+            <h5 class="card-title">Classic Boat Museum</h5>
+            <p class="card-text">
+              Step aboard and discover the maritime legacy of the Isle of Wight. Explore historic vessels and nautical artifacts that tell the island’s seafaring story.
+            </p>
+            <a href="https://www.classicboatmuseum.com" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Glory Art Glass Card -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="glass.jpg" class="card-img-top" alt="Glory Art Glass">
+          <div class="card-body">
+            <h5 class="card-title">Glory Art Glass</h5>
+            <p class="card-text">
+              Marvel at the exquisite craftsmanship of local art glass. Witness stunning glasswork and learn about the artistic traditions that continue to inspire on the island.
+            </p>
+            <a href="https://gloryartglass.net" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Stokeys Solar System Walk Card -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="solar.webp" class="card-img-top" alt="Stokeys Solar System Walk">
+          <div class="card-body">
+            <h5 class="card-title">Stokeys Solar System Walk</h5>
+            <p class="card-text">
+              Embark on a cosmic journey with the Stokeys Solar System Walk. This interactive outdoor exhibit brings the wonders of our solar system to life in a fun, educational way.
+            </p>
+            <a href="https://www.facebook.com/stokeywalk" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Home Button -->
+  <section class="back-home">
+    <a class="btn btn-primary" href="index.html">Back to Home</a>
+  </section>
+</main>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p>&copy; 2025 Isle of Wight Web Mapping Project. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Leaflet JS -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  // Initialize the interactive Leaflet map
+  var map = L.map('tourismMap').setView([50.66, -1.3], 10); // Centered on the Isle of Wight
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data © OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Define tourism destinations with approximate coordinates and external links
+  var tourismDestinations = [
+    { name: "The Needles", coords: [50.66264, -1.58948], link: "https://www.nationaltrust.org.uk/visit/isle-of-wight/the-needles-old-battery-and-new-battery" },
+    { name: "Osborne House", coords: [50.75044, -1.26968], link: "https://www.english-heritage.org.uk/visit/places/osborne/" },
+    { name: "Carisbrooke Castle", coords: [50.68724, -1.31317], link: "https://www.english-heritage.org.uk/visit/places/carisbrooke-castle/" },
+    { name: "Ventnor Botanic Garden", coords: [50.58915, -1.22796], link: "https://www.botanic.co.uk" },
+    { name: "Shanklin Chine", coords: [50.62647, -1.17465], link: "https://shanklinchine.co.uk" },
+    { name: "Alum Bay", coords: [50.66814, -1.56909], link: "https://www.visitisleofwight.co.uk/things-to-do/alum-bay-beach-p993841" },
+    { name: "Classic Boat Museum", coords: [50.76012, -1.28929], link: "https://www.classicboatmuseum.com" },
+    { name: "Glory Art Glass", coords: [50.65409, -1.15700], link: "https://gloryartglass.net" },
+    { name: "Stokeys Solar System Walk", coords: [50.59780, -1.18629], link: "https://www.facebook.com/stokeywalk" }
+  ];
+
+  // Add a marker for each tourism destination with a popup containing a Read More link
+  tourismDestinations.forEach(function(dest) {
+    var marker = L.marker(dest.coords).addTo(map);
+    marker.bindPopup('<strong>' + dest.name + '</strong><br><a href="' + dest.link + '" target="_blank">Read More</a>');
+  });
+</script>
+
+</body>
+</html>

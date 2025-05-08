@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web App - Isle of Wight Web Mapping Project</title>
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Responsive embed container for the web app */
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            max-width: 100%;
+            margin: 1rem auto;
+        }
+        .embed-container iframe,
+        .embed-container object,
+        .embed-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<!-- Header and Navigation -->
+<header>
+    <h1>Isle of Wight Web Mapping Project</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="soil.html">Soil Characteristics</a></li>
+            <li><a href="roads.html">Roads</a></li>
+            <li><a href="towns.html">Towns &amp; Population</a></li>
+            <li><a href="rainfall.html">Average Rainfall</a></li>
+            <li><a href="floodrisk.html">Flood Risk</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+            <li><a href="cycling_route.html">Cycling Routes</a></li>
+            <li><a class="active" href="webapp.html">Web App</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content: Embed Your ArcGIS Web App -->
+<main class="container my-4">
+    <div class="embed-container">
+        <!-- Use the raw embed URL with your provided app ID -->
+        <iframe src="https://cranfield-uni.maps.arcgis.com/apps/webappviewer/index.html?id=69dd199cefe24614a0b8f42d30c99646"
+                frameborder="0"
+                scrolling="no"
+                allowfullscreen
+                title="ArcGIS Web App - Ready To Use"></iframe>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Isle of Wight Web Mapping Project</p>
+</footer>
+
+<!-- Bootstrap Bundle JS from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
